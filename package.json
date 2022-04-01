@@ -1,6 +1,6 @@
 {
   "name": "gen-file-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -8,10 +8,10 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "vitest",
-    "b": "tsup ./index.ts",
+    "b": "tsup ./src/index.ts",
     "r": "node ./dist/index.js",
     "f": "npx case-police --fix",
-    "tr": "ts-node ./index.ts",
+    "tr": "ts-node ./src/index.ts",
     "lint": "eslint genCode --fix"
   },
   "devDependencies": {
